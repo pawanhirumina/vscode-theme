@@ -1,0 +1,89 @@
+.codicon-tree-item-expanded:before {
+  display: none !important;
+} 
+
+/* List item label name */
+.monaco-list.list_id_1 .monaco-list-row.selected .label-name {
+  opacity: 1 !important;
+}
+
+/* File Explorer Item Label */
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name {
+  font-weight: 400 !important;
+}
+
+/* Scroll Bar */
+.slider {
+  position: absolute !important;
+  right: 1px !important;
+  width: 1px !important;
+  background: #bc9abc !important;
+  left: auto !important;
+}
+
+.monaco-resizable-hover {
+  border: none !important;
+}
+
+.codicon-search::before {
+  display: none !important;
+}
+
+.codicon-arrow-right,
+.codicon-arrow-left {
+  display: none !important;
+}
+
+.titlebar-right > * {
+  display: none !important;
+}
+
+.command-center-center {
+  width: auto !important;
+}
+
+/* Remove background for lists */
+.monaco-list-rows {
+  background: transparent !important;
+}
+
+#command-blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.quick-input-widget {
+  top: 25vh !important;
+  box-shadow: none !important;
+}
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.label-container>.title-label {
+  padding-left:  10px !important;
+}
+.monaco-workbench .part.editor .title .editor-group-container {
+  margin-left: 0 !important;
+  order: -1;
+}
+.monaco-workbench .editor-title .editor-group-container {
+  margin-left: 50px !important;
+}
+.monaco-workbench .part.titlebar {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+.monaco-workbench .sidebar, .monaco-workbench .auxiliarybar {
+  background-color: transparent !important;
+}
+.monaco-workbench .part.sidebar>.title {
+  background-color: transparent !important;
+
+}

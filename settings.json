@@ -1,0 +1,74 @@
+{
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "single",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "no ne",
+  "editor.lineNumbers": "off",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.folding": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.cursorBlinking": "solid",
+  "breadcrumbs.enabled": false,
+  "workbench.tips.enabled": false,
+  "workbench.startupEditor": "none",
+  "explorer.decorations.badges": false,
+  "explorer.compactFolders": false,
+  "search.actionsPosition": "auto",
+  "window.controlsStyle": "custom",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "editor.hover.enabled": false,
+  "editor.codeLens": false,
+  "editor.glyphMargin": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderControlCharacters": false,
+  "workbench.activityBar.location": "hidden",
+  "window.menuBarVisibility": "compact",
+  "workbench.colorTheme": "Aura Dracula Spirit",
+  "window.title": " ",
+  "window.customTitleBarVisibility": "never",
+  "window.systemColorTheme": "dark",
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.decorations.colors": true,
+  "workbench.tree.indent": 10,
+  "workbench.tree.expandMode": "singleClick",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "custom-ui-style.stylesheet": {
+    ".decorationsOverviewRuler": "display: none !important",
+    ".pane-composite-part": "border: none !important; box-shadow: none;",
+    ".quick-input-widget .quick-input-box": "backdrop-filter: blur(3px)",
+    ".quick-input-widget .monoco-scrollbar-element::-webkit-scrollbar": "display: none !important",
+    ".monaco-workbench .part>.title>.title-label": "padding: 0",
+    ".monaco-editor .scroll-decoration": "box-shadow: none"
+  },
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/Pawan/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
+    "file:///e:/github-projects/vscode-theme/main.js",
+    "file:///e:/github-projects/vscode-theme/main.css"
+  ],
+  "chat.agent.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.languageDetection": true,
+  "workbench.editor.empty.hint": "text",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "files.autoSave": "afterDelay"
+}
